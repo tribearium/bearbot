@@ -14,6 +14,6 @@ export const config = {
      * - favicon.ico
      * - api/webhook (must be publicly accessible for Meta to POST to it)
      */
-    '/((?!_next/static|_next/image|favicon.ico|api/webhook).*)',
+    '/((?!_next/static|_next/image|favicon.ico|api/webhook|privacy).*)',
   ],
 };
